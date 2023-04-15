@@ -19,7 +19,7 @@ console.log('Post to the ase');
   const result = await jateDb
   .transaction('jate', 'readwrite')
   .objectStore('jate')
-  .add({ id: 1, jate: content });
+  .put({  jate: content });
   console.log('🚀 - data saved to the database', result.jate);
 };
 
