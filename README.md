@@ -8,11 +8,11 @@ GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure (x)
 WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
+THEN I find that my application should start up the backend and serve the client (x)
 WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
+THEN I find that my JavaScript files have been bundled using webpack(x)
+WHEN I run my webpack plugins 
+THEN I find that I have a generated HTML file, service worker, and a manifest file (x)
 WHEN I use next-gen JavaScript in my application
 THEN I find that the text editor still functions in the browser without errors
 WHEN I open the text editor
