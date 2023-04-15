@@ -16,9 +16,6 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
-    // experiments: {
-    //   topLevelAwait: true
-    // },
     plugins: [
       // Webpack plugin that generates our html file and injects our bundles. 
       new HtmlWebpackPlugin({
@@ -36,13 +33,20 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Contact Cards',
-        short_name: 'Contact',
-        description: 'Never forget your contacts!',
+        name: 'JATE',
+        short_name: 'JATE',
+        description: 'Just another text editor',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
+        icons: [
+          {
+            src: path.resolve('assets/images/icon.png'),
+            sizes: [48, 96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
+          },
+        ],
       }),
     ],
 
