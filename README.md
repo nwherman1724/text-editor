@@ -13,7 +13,6 @@
   - [Usage](#usage)
   - [License](#license)
   - [Contribution](#contribution)
-  - [Tests](#tests)
   - [Questions](#questions)
 
   ## :hammer_and_wrench: Installation
@@ -23,7 +22,12 @@
 
   ## :zap: Usage
   
-      
+  Browswer View:
+  ![Screenshot 2023-04-17 at 7 05 50 AM](https://user-images.githubusercontent.com/93491747/232467733-209752b2-f8c0-4b29-aba0-25746803643d.png)
+
+  Installed View:
+  ![Screenshot 2023-04-17 at 7 07 05 AM](https://user-images.githubusercontent.com/93491747/232467746-d384f873-7b9a-4349-a3b7-4fe6c3a4d6ca.png)
+
   ## :lock: License
   
   This project is cover under the MIT License.
